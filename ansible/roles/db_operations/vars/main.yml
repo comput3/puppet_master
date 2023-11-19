@@ -1,0 +1,4 @@
+---
+sql_scripts:
+  - "update_dms_repository"
+  # Add other script names as needed
