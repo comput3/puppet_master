@@ -1,0 +1,7 @@
+{
+    "update_dms_repository": {
+        "location": "example",
+        "dms_repository_id": 1
+    }
+    // Other scripts and their variables can be added similarly
+}
