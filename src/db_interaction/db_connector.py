@@ -2,7 +2,7 @@
 
 import cx_Oracle
 import logging
-from config import db_config  # Assuming database config is stored in a separate config file
+from config import db_config
 
 class DBConnector:
     def __init__(self):
