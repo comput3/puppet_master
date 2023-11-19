@@ -1,0 +1,7 @@
+---
+- name: Database Update Operations
+  hosts: your_database_server
+  gather_facts: no
+
+  roles:
+    - db_operations
