@@ -1,0 +1,4 @@
+---
+- name: Execute DB Operations Script
+  command: python /path/to/your/script.py {{ item }}
+  loop: "{{ sql_scripts }}"
