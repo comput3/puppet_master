@@ -1,0 +1,2 @@
+cx_Oracle==<version>  # Replace <version> with the specific version you want to use
+ansible==<version>    # Replace <version> with the specific version of Ansible you're using
