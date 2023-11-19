@@ -32,3 +32,20 @@ To run a database operation using Ansible:
 2. Execute the Ansible playbook:
    ```bash
    ansible-playbook playbooks/db_update_playbook.yml
+
+This playbook will loop through the SQL scripts defined in the `vars/main.yml` of the `db_operations` role and execute them using the Python scripts.
+
+## Example Usage
+
+Suppose you have an SQL script `update_dms_repository.sql` in `sql_scripts/dml/` and corresponding variables in `config/dml_variables.json`. To run this update operation:
+
+1. Make sure the `update_dms_repository` script is listed in `ansible/roles/db_operations/vars/main.yml`.
+2. Run the playbook as described in the **Running the Project** section.
+
+## Contributions
+
+Contributions to Puppet_Master are welcome. Please ensure that your pull requests are well-documented and tested.
+
+## License
+
+[Specify License Here]
